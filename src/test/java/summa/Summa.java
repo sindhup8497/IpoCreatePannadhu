@@ -12,6 +12,7 @@ public class Summa {
 	@Test
 	public void test1()
 	{
+		//from git
 	WebDriver d= new ChromeDriver();
 	d.get("https://demowebshop.tricentis.com/");
 	List<WebElement> radio=d.findElements(By.xpath("//ul[@class='poll-options']/descendant::input[@type='radio']"));
